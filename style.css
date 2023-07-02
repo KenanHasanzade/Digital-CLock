@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 220px;
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(rgba(128, 128, 128, 0.815),rgba(22, 14, 44, 0.897));
+}
+.container_top{
+    display: flex;
+    position: absolute;
+    top: -15%;
+    left: 4%;
+}
+.bottom_container{
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#fulldate{
+   width: 200px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 22px;
+   font-weight: bold;
+   color: rgba(255, 255, 255, 0.719);
+
+}
+#weekday{
+    height: 50px;
+    width: 200px;
+    color: rgba(255, 255, 255, 0.719);
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+#moon{
+    height: 75px;
+    margin-bottom: 20px;
+}
+#sun{
+margin-bottom: 15px;
+height: 75px;
+
+}
+.hours{
+    width: 200px;
+    height: 160px;
+    border-radius: 20px;
+    position: relative;
+}
+span{
+    font-size: 80px;
+    height: 160px;
+    justify-content: center;
+    display: flex;
+    align-items: center;    
+}
+.minutes{
+     width: 200px;
+    height: 160px;
+    border-radius: 20px;
+        position: relative;
+}
+.seconds{
+     width: 200px;
+    height: 160px;
+    border-radius: 20px;
+        position: relative;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.925);
+    border-radius: 20px 20px 0 0;
+    border: 1px solid  rgba(255, 255, 255, 0.714);
+}
+.bottom{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 0 0 20px 20px;
+    border: 1px solid  rgba(255, 255, 255, 0.714);;
+    border-top: 0;
+}
+.time{
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    /* background-color: transparent; */
+    top: 11%;
+    left: 9%;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.714);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 150px;
+    background: linear-gradient(
+        to right, #9f21f3, #08ceff,
+         #2399cf, #e044ee);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
