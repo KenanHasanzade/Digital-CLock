@@ -1,1 +1,1 @@
-# Digital-CLock writinf with HTML,CSS and Javascript
+# Digital-CLock wrote with HTML,CSS and Javascript
